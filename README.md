@@ -1,1 +1,1 @@
-# app
+The contents of this repository, including but not limited to code, images, and other assets, are protected by copyright law. Without explicit permission, you may not reproduce, distribute, or modify any part of this repository for any purpose other than personal use.
