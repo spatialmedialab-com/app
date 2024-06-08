@@ -27,7 +27,7 @@ const geometry = new THREE.TorusGeometry(0.5, 0.1, 16, 48);
 // Create an array to hold tori and their materials
 const tori = [];
 const colors = [0x00ff00, 0xff0000, 0x0000ff, 0xff00ff];
-const initialZ = camera.position.z - .25; // Start at the camera position
+const initialZ = camera.position.z - 0; // Start at the camera position
 const totalDistance = 5.5; // Total distance for the loop
 const speed = 0.15; // units per second
 const numTori = colors.length;
