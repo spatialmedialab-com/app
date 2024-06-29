@@ -50,7 +50,7 @@ const velocity = 0.5; // Adjust as needed
 
 // Function to create and add a frame to the scene
 function createFrame(color, delay) {
-    loader.load('frame.gltf', (gltf) => {
+    loader.load('./frame.gltf', (gltf) => {
         console.log('Model loaded', gltf); // Log model load
         const frame = gltf.scene;
         frame.position.set(0, 0, initialZ); // Set initial position along z-axis
