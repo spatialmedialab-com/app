@@ -33,7 +33,7 @@ const speed = 0.15; // units per second
 const numTori = colors.length;
 const interval = (totalDistance / numTori) / speed * 1000; // Interval in milliseconds
 const loopDuration = totalDistance / speed; // Total duration for one loop
-const dissolveDuration = 15; // Duration of the dissolve effect in seconds
+const dissolveDuration = 45; // Duration of the dissolve effect in seconds
 
 // Variable for velocity
 const velocity = .5; // Adjust as needed
