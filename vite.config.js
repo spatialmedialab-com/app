@@ -1,9 +1,15 @@
+// vite.config.js
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/', // Adjust as necessary for your deployment environment
+  base: '/app/', // Ensure this matches your deployment path
   build: {
-    outDir: 'dist',
-    sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        frame: resolve(__dirname, 'frame/index.html'),
+      },
+    },
   },
 });
